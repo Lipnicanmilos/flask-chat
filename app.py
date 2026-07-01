@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # toto by mal byt nejaky nahodny string,
 # pouziva sa na sifrovanie sessionov:
-app.config["SECRET_KEY"] = "nieco"
+app.config["SECRET_KEY"] = "n32345@fda4#$gsdfo"
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///database.db"
 db = SQLAlchemy(app)
 
